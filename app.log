@@ -1292,3 +1292,70 @@ Also, what kind of dental care are you looking for (e.g. general dentist, cosmet
 2024-10-06 12:35:32,226 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2024-10-06 12:35:58,344 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2024-10-06 12:35:59,403 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-09 16:28:35,916 - Setting pinecone connection...
+2025-02-09 16:28:35,916 - Loading vector database from Pinecone...
+2025-02-09 16:28:35,917 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:28:35,917 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:28:35,927 - Installing plugin inference into Pinecone
+2025-02-09 16:30:55,344 - Setting pinecone connection...
+2025-02-09 16:30:55,344 - Loading vector database from Pinecone...
+2025-02-09 16:30:55,345 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:30:55,345 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:30:55,354 - Installing plugin inference into Pinecone
+2025-02-09 16:30:55,660 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:30:55,660 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:30:55,661 - Vector database loaded...
+2025-02-09 16:31:06,726 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-09 16:31:06,728 - Error in chat_with_agent: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-02-09 16:36:26,295 - Setting pinecone connection...
+2025-02-09 16:36:26,295 - Loading vector database from Pinecone...
+2025-02-09 16:36:26,296 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:36:26,296 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:36:26,304 - Installing plugin inference into Pinecone
+2025-02-09 16:36:26,726 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:36:26,726 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:36:26,727 - Vector database loaded...
+2025-02-09 16:36:38,189 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-09 16:36:38,190 - Error in chat_with_agent: Error code: 404 - {'error': {'message': 'The model `llama-3-70b` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-02-09 16:37:25,530 - Setting pinecone connection...
+2025-02-09 16:37:25,530 - Loading vector database from Pinecone...
+2025-02-09 16:37:25,530 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:37:25,530 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:37:25,539 - Installing plugin inference into Pinecone
+2025-02-09 16:37:25,757 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:37:25,757 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:37:25,758 - Vector database loaded...
+2025-02-09 16:38:11,177 - Error in chat_with_agent: Completions.create() got an unexpected keyword argument 'strict'
+2025-02-09 16:38:15,070 - Error in chat_with_agent: Completions.create() got an unexpected keyword argument 'strict'
+2025-02-09 16:39:39,523 - Setting pinecone connection...
+2025-02-09 16:39:39,523 - Loading vector database from Pinecone...
+2025-02-09 16:39:39,523 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:39:39,524 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:39:39,533 - Installing plugin inference into Pinecone
+2025-02-09 16:39:39,738 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:39:39,738 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:39:39,739 - Vector database loaded...
+2025-02-09 16:39:44,063 - Error in chat_with_agent: Completions.create() got an unexpected keyword argument 'strict'
+2025-02-09 16:39:45,224 - Error in chat_with_agent: Completions.create() got an unexpected keyword argument 'strict'
+2025-02-09 16:39:46,031 - Error in chat_with_agent: Completions.create() got an unexpected keyword argument 'strict'
+2025-02-09 16:45:04,503 - Setting pinecone connection...
+2025-02-09 16:45:04,503 - Loading vector database from Pinecone...
+2025-02-09 16:45:04,504 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:45:04,504 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:45:04,515 - Installing plugin inference into Pinecone
+2025-02-09 16:45:04,763 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:45:04,764 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:45:04,766 - Vector database loaded...
+2025-02-09 16:45:10,194 - Error in chat_with_agent: Completions.create() got an unexpected keyword argument 'strict'
+2025-02-09 16:45:12,084 - Error in chat_with_agent: Completions.create() got an unexpected keyword argument 'strict'
+2025-02-09 16:47:58,935 - Setting pinecone connection...
+2025-02-09 16:47:58,935 - Loading vector database from Pinecone...
+2025-02-09 16:47:58,936 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:47:58,936 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:47:58,945 - Installing plugin inference into Pinecone
+2025-02-09 16:47:59,146 - Discovering subpackages in _NamespacePath(['/opt/homebrew/lib/python3.11/site-packages/pinecone_plugins'])
+2025-02-09 16:47:59,146 - Looking for plugins in pinecone_plugins.inference
+2025-02-09 16:47:59,147 - Vector database loaded...
+2025-02-09 16:48:04,029 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-09 16:48:04,473 - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-02-09 16:48:07,337 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
